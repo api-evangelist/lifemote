@@ -1,0 +1,35 @@
+# Lifemote Networks
+
+> Lifemote Networks is an Istanbul-based provider of AI-driven home Wi-Fi analytics and experience management for broadband ISPs and network operators. An agent on the subscriber gateway or access point streams in-home Wi-Fi telemetry to Lifemote's cloud, which scores quality of experience per household and per device and isolates root causes — poor coverage, misplaced repeaters, congested or co-channel Wi-Fi, legacy client devices, non-Wi-Fi interference. Operators consume the results through a web application for first-line support, proactive maintenance, churn detection and mesh/gateway upselling, plus quarterly expert-reviewed QoE reports.
+
+## API availability
+
+Lifemote markets a "full-featured API" for integrating Wi-Fi analytics data with an operator's in-house OSS/BSS systems and support workflows. As of 2026-07-19 that API is **not publicly documented**: there is no developer portal, no API reference, no machine-readable specification (OpenAPI/AsyncAPI/GraphQL), no SDK or package in any public registry, no sandbox, and no self-service sign-up. Access is arranged through direct enterprise engagement — start at the contact form below and request a demo.
+
+## Site
+
+- [Lifemote Networks](https://lifemote.com): Company home page.
+- [Solution](https://www.lifemote.com/solution): The end-to-end platform — on-device agent, cloud analytics, web application, QoE reports, and the OSS/BSS integration API.
+- [Resources](https://www.lifemote.com/resources): Engineering and industry blog covering Wi-Fi, AI, observability, and AWS infrastructure practice.
+- [Team](https://www.lifemote.com/team): Leadership, engineering organization, and open roles.
+- [Contact](https://www.lifemote.com/contact): Demo request and the route to commercial API access.
+
+## Company
+
+- [GitHub organization](https://github.com/lifemote): Exists; no public repositories.
+- [LinkedIn](https://www.linkedin.com/company/lifemote-networks)
+- [X](https://x.com/lifemote)
+- [Privacy Policy](https://cdn.prod.website-files.com/6756bcab7372a4eb7f4795cd/69a7fae1557368961c2a4834_lifemote.com-privacy-policy.pdf): Published as a PDF.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/apis.yml): APIs.json profile for Lifemote.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/security/lifemote-domain-security.yml): Probed TLS/HSTS/DNS posture.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/well-known/lifemote-well-known.yml): Probed /.well-known/ discovery surface (none published).
+- [Packages](https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/packages/lifemote-packages.yml): Registry search results (no public SDKs).
+
+## Notes for agents
+
+- There is nothing here an agent can call programmatically. Do not construct Lifemote API base URLs, endpoints, authentication schemes, or SDK install commands — none are published, and any such value would be invented.
+- Customers named publicly on Lifemote's site: A1, Community Fibre, Online.nl, Tusass.
+- Backed by 500 Global.

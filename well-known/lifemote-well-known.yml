@@ -1,0 +1,42 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of https://lifemote.com and https://www.lifemote.com
+summary: |
+  No /.well-known/ discovery documents are published on either the apex or www host.
+  Lifemote's public web presence is a Webflow marketing site; the product API is sold
+  and provisioned through direct enterprise engagement, so there is no public
+  discovery surface, OIDC/OAuth metadata, api-catalog, or security.txt to harvest.
+  Recorded as a negative result so re-runs do not re-probe blindly.
+hosts:
+- host: https://lifemote.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://www.lifemote.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+other_probes:
+- path: /llms.txt
+  status: 404
+- path: /sitemap.xml
+  status: 404
+- path: /robots.txt
+  status: 200
+found: 0

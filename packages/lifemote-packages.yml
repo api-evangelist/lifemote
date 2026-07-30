@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: registry searches (npm, PyPI) + GitHub org/search + lifemote.com solution page
+summary: |
+  No first-party Lifemote client libraries or SDKs were found in any public package
+  registry. The GitHub organization https://github.com/lifemote exists and is named
+  "Lifemote Networks" but publishes no public repositories. Lifemote advertises a
+  "full-featured API" for OSS/BSS integration on its solution page, but distributes
+  it only under direct enterprise engagement — no public SDK, no package, no
+  installable artifact. Recorded as a negative result.
+registries_searched:
+- registry: npm
+  query: lifemote
+  results: 0
+- registry: pypi
+  query: lifemote
+  results: 0
+  note: https://pypi.org/pypi/lifemote/json returned 404
+- registry: github
+  query: lifemote
+  results: 1
+  note: only ersoykadir/lifemote_internship — third-party, not an official client library
+github_organization:
+  url: https://github.com/lifemote
+  name: Lifemote Networks
+  public_repositories: 0
+packages: []
