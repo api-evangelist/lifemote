@@ -14,6 +14,17 @@ description: 'Lifemote Networks is an Istanbul-based provider of AI-driven home 
   site, machine-readable specification, or self-service sign-up. Customers named publicly
   include A1, Community Fibre, Online.nl, and Tusass.'
 url: https://raw.githubusercontent.com/api-evangelist/lifemote/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
