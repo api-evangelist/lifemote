@@ -64,21 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lifemote Networks is an Istanbul-based provider of AI-driven home Wi-Fi analytics and experience management for broadband ISPs and network operators. A software agent running on the subscriber gateway or access point streams detailed in-home Wi-Fi performance telemetry to Lifemote's cloud, which scores quality of experience per household and per device and isolates root causes such as poor coverage, misplaced repeaters, congested or co-channel Wi-Fi, legacy client devices, and non-Wi-Fi interference.
+Lifemote Networks is an Istanbul-based provider of AI-driven home Wi-Fi analytics and experience management for broadband ISPs and network operators. A software agent running on the subscriber gateway or access point streams detailed in-home Wi-Fi performance telemetry to Lifemote's cloud, which scores quality of experience per household and per device and isolates root causes such as poor coverage, misplaced repeaters, congested or co-channel Wi-Fi, legacy client devices, and non-Wi-Fi interference. Operators consume the results through a web application for first-line support, proactive maintenance, churn detection and mesh/gateway upselling, plus quarterly expert-reviewed QoE reports. Lifemote markets a full-featured API for integrating this data with in-house OSS/BSS systems and support workflows, but that API is sold and provisioned through direct enterprise engagement — there is no public developer portal, documentation site, machine-readable specification, or self-service sign-up. Customers named publicly include A1, Community Fibre, Online.nl, and Tusass.
 
-Operators consume the results through a web application for first-line support, proactive maintenance, churn detection and mesh/gateway upselling, plus quarterly expert-reviewed QoE reports. Publicly named customers include A1, Community Fibre, Online.nl, and Tusass.
+**Areas:** Company · Networking · Wi-Fi · Broadband · Telecommunications · Analytics · Artificial Intelligence · Customer Experience · Network Observability · Internet Service Providers
 
-## API surface
+## Lifemote on APIs.io
 
-Lifemote markets a "full-featured API" for integrating its analytics with in-house OSS/BSS systems, but as of 2026-07-19 that API is **not publicly documented**. Enrichment found no developer portal, API reference, machine-readable specification, SDK, package, sandbox, status page, or self-service sign-up. Access is arranged through direct enterprise engagement via https://www.lifemote.com/contact.
+Everything profiled for Lifemote is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lifemote/](https://apis.io/providers/lifemote/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | Path | Method | Result |
-|---|---|---|---|
-| Domain security | `security/lifemote-domain-security.yml` | probed | TLS 1.3 + HSTS; no DNSSEC, CAA, SPF, or DMARC |
-| Well-known index | `well-known/lifemote-well-known.yml` | searched | No discovery documents published |
-| Packages | `packages/lifemote-packages.yml` | searched | No public SDKs in any registry |
-| llms.txt | `llms/lifemote-llms.txt` | generated | Generated from `apis.yml` |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Backed by: 500 Global — https://lifemote.com
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lifemote Domain Security](https://apis.io/security/lifemote/lifemote-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lifemote.com)
+- [Support](https://www.lifemote.com/contact)
+- [Blog](https://www.lifemote.com/resources)
+- [Privacy policy](https://cdn.prod.website-files.com/6756bcab7372a4eb7f4795cd/69a7fae1557368961c2a4834_lifemote.com-privacy-policy.pdf)
+- [GitHub](https://github.com/lifemote)
+
+## API Evangelist rating
+
+**Kin Score 7.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lifemote/](https://apis.io/providers/lifemote/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lifemote: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lifemote/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
